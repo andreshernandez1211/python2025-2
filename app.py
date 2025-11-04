@@ -13,7 +13,7 @@ import dash_bootstrap_components as dbc
 from dash import Dash,dcc,html,Input,Output
 from dash import dash_table
 
-
+df=pd.read_csv("empresas.csv")
 
 #paso 1 inciar dash
 app=dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
